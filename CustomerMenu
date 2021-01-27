@@ -11,7 +11,19 @@ public class CustomerMenu_AM {
 
 	public String productList() {
 
-		return null;
+	public String productList() {
+        	System.out.printf("product name ");
+        	System.out.printf("price ");
+        	System.out.printf("number");
+        	System.out.println("");
+        	for (int i = 0; i < 20; i++)
+        	{
+            		System.out.printf(prodName[i] + " ");
+            		System.out.printf(prodPrice[i] + " ");
+           		System.out.printf(prodNum[i] + " ");
+            		System.out.println("");
+        	}
+    	}
 	}
 
 	public void purchase(int productNum) {
