@@ -1,0 +1,36 @@
+package GoodiesVendingMachine;
+
+public class CustomerMenu_AM {
+	
+	
+	public String welcomeMenu() {
+		String welcomeMsg = "Welcome to Goodies Vending Machine!\nWhat would you like to purcahse today?";
+		return welcomeMsg;
+	}
+	
+	
+	public String productList() {
+		
+		return null;
+	}
+	
+	public void purchase(int productNum) {
+		Boolean isPurchased == true;
+		productNum = isPurchased;
+	}
+	
+	public boolean isPurchased() {
+		if 
+	}
+	
+	public void updateInventory() {
+		if(isPurchased() == true) {
+			itemQuantity -= 1; 
+		}
+		
+	}
+	
+	
+	
+}
+
