@@ -4,7 +4,29 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class driver
+import java.util.Scanner;
+public class TheGoodiesDriver
 {
-  
+    public static void main (String [] args){
+        CustomerMenu customer = new CustomerMenu();
+        Scanner scan = new Scanner(System.in);
+        int prodNum, quant;
+        int buyAgain;
+        boolean order = true;
+        System.out.println(customer.welcomeMenu());
+        customer.productList();
+        while (order){
+            System.out.println("Enter an item number: ");
+            prodNum = scan.nextInt();
+            System.out.println("How many would you like to buy: ");
+            quant = scan.nextInt();
+            customer.update(prodNum,quant);
+            System.out.println("Would you like to buy another item? (1=y/2=n)");
+            buyAgain = scan.nextInt();
+            
+            if (buyAgain == 2){
+                order = false;
+            }
+        }
+    }
 }
