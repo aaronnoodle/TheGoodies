@@ -1,5 +1,6 @@
+ 
 
-public class CustomerMenu_AM {
+public class CustomerMenu {
 
 	
 	double [] prodPrice = {
@@ -18,9 +19,8 @@ public class CustomerMenu_AM {
 	}
 
 
-	public String productList() {
 
-	public String productList() {
+	public void productList() {
         	System.out.printf("product name ");
         	System.out.printf("price ");
         	System.out.printf("number");
@@ -33,23 +33,9 @@ public class CustomerMenu_AM {
             		System.out.println("");
         	}
     	}
-	}
+	
 
-	public void purchase(int productNum) {
-		Boolean isPurchased == true;
-		productNum = isPurchased;
-	}
 
-	public boolean isPurchased() {
-		if 
-	}
-
-	public void updateInventory() {
-		if(isPurchased() == true) {
-			itemQuantity -= 1; 
-		}
-
-	}
 
 
 
