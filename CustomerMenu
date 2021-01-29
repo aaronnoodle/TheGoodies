@@ -1,4 +1,10 @@
- 
+ /**
+ * Customer Menu class. Has methods to display a welcome menu and a product list. Has methods for the that allows the customer to 
+ * make a purchase from a list of available products and updates the vending machine inventory when an item is purchased.
+ *
+ * @author Aaron Munford
+ * @version 1/29/21 - Java 8
+ */
 
 public class CustomerMenu {
 
